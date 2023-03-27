@@ -18,4 +18,6 @@ const AddItem = ({item,setnewItem,handlesubmit}) => {
   )
 }
 
+// json-server –watch db.json 
+
 export default AddItem

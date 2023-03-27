@@ -97,9 +97,9 @@ function App() {
     const handlesubmit=(e)=>{
       e.preventDefault();
       if(!newItem) return;
-      additem(newItem)
-      setnewItem(' ')
-      console.log("submitted")
+      additem(newItem);
+      setnewItem(' ');
+      console.log("submitted");
     }
   return (
     <div className="App">
